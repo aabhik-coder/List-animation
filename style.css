@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bubblegum Sans', cursive;
+}
+body{
+    background: url(images/bg.webp);
+    background-size: 100%;
+}
+.flag{
+    height: 32px;
+    margin-right: 10px;
+}
+.list{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    background-color: rgb(211, 211, 211);
+    width:43px;
+    color: rgba(130, 1, 72, 0);
+}
+.list:hover{
+    transition-duration: 0.3s;
+    width: 150px;
+    color: rgb(230, 0, 50);
+}
+.listmain{
+    background-color: rgba(130, 1, 72, 0.769);
+    border-radius: 15px;
+    width: 400px;
+    height:fit-content;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 32px;
+    color: aliceblue;
+    text-align: center;
+    margin:5px 0px 20px 0px ;
+}
+
